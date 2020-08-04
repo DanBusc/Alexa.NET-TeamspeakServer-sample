@@ -1,0 +1,55 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "teamspeak",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetClients",
+                    "slots": [],
+                    "samples": [
+                        "who is online",
+                        "who is connected",
+                        "anyone connected",
+                        "who's online",
+                        "who's connected",
+                        "is anyone there"
+                    ]
+                },
+                {
+                    "name": "GetServerinfo",
+                    "slots": [],
+                    "samples": [
+                        "info",
+                        "serverinfo"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
